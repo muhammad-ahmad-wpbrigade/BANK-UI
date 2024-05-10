@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 header {
     width: 100%;
     height: 70px;
@@ -80,6 +81,10 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.menu-2 {
+    margin-left: 50px;
 }
 
 .menu-2 a {
@@ -335,17 +340,17 @@ input[type="password"] {
     text-align: center;
     background-color: lightgray;
     color: #fff;
-    height: 120px;
-    padding-top: 10px;
+    height: 85px;
+    padding-top: 5px;
 }
 
 .footer-1 h1 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .footer-1 p {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .footer-1 a {
@@ -354,7 +359,7 @@ input[type="password"] {
     text-decoration: none;
     padding: 5px 10px;
     background-color: lightblue;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .footer-1 a:hover {
@@ -362,12 +367,13 @@ input[type="password"] {
 }
 
 .switch-anchor {
-    margin-top: 23px;
+    margin-top: 10px;
 }
 
 .footer-2 {
     display: flex;
     justify-content: center;
+    background-color: darkgray;
 }
 
 .footer-2 p {
@@ -398,6 +404,7 @@ input[type="password"] {
     justify-content: center;
     color: #fff;
     background-color: lightgray;
+    height: 90px;
 }
 
 .footer-3 p {
@@ -420,7 +427,7 @@ input[type="password"] {
 }
 
 .liberty-4 {
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     margin-left: 90px;
 }
 
@@ -428,17 +435,53 @@ input[type="password"] {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
-    background-color: lightblue;
-    font-size: 16px;
+    font-size: 12px;
 }
 
-.liberty-4 a:hover {
+.liberty-4 .download-btn a {
+    background-color: lightskyblue;
+}
+
+.liberty-4 .download-btn a:hover {
     background-color: darkgray;
 }
 
-.download-btn {
-    margin-top: 20px;
+.icon {
+    display: flex;
+    justify-content: center;
 }
+
+/* .download-btn {
+    margin-top: 10px;
+} */
+
+/* .icon {
+    display: flex;
+} */
+
+/* .icon img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+} */
+
+/* 
+.icon img:hover {
+    transform: scale(1.1); 
+} */
+
+/* .icon:hover img {
+    transform: scale(1.1);
+} */
+
+/* @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
 
 @media (max-width: 480px) {
 

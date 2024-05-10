@@ -82,6 +82,10 @@ nav {
     align-items: center;
 }
 
+.menu-2 {
+    margin-left: 50px;
+}
+
 .menu-2 a {
     text-decoration: none;
     font-size: 12px;
@@ -97,7 +101,7 @@ nav {
 
 .menu-3 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12px;
     color: black;
     font-weight: bold;
     padding: 10px 10px;
@@ -155,6 +159,121 @@ nav {
   }
 
   .footer-1 {
+    text-align: center;
+    background-color: lightgray;
+    color: #fff;
+    height: 85px;
+    padding-top: 5px;
+}
+
+.footer-1 h1 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-1 p {
+    font-size: 10px;
+}
+
+.footer-1 a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: lightblue;
+    font-size: 12px;
+}
+
+.footer-1 a:hover {
+    background-color: darkgray;
+}
+
+.switch-anchor {
+    margin-top: 10px;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+.footer-2 p {
+    font-size: 10px;
+}
+
+.footer-2 h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.part-1 {
+    padding: 10px 10px;
+}
+
+.part-2 {
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+
+.part-3 {
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: lightgray;
+    height: 90px;
+}
+
+.footer-3 p {
+    font-size: 12px;
+}
+
+.liberty-1 {
+    padding: 10px 10px;
+    margin-left: 128px;
+}
+
+.liberty-2 {
+    padding: 10px 10px;
+    margin-left: 90px;
+}
+
+.liberty-3 {
+    padding: 10px 10px;
+    margin-left: 90px;
+}
+
+.liberty-4 {
+    /* padding: 10px 10px; */
+    margin-left: 90px;
+}
+
+.liberty-4 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.liberty-4 .download-btn a {
+    background-color: lightskyblue;
+}
+
+.liberty-4 .download-btn a:hover {
+    background-color: darkgray;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+  /* .footer-1 {
     text-align: center;
     background-color: lightgray;
     color: #fff;
@@ -217,7 +336,6 @@ nav {
     justify-content: center;
     color: #fff;
     background-color: lightgray;
-    /* background-color: #8A2BE2; */
 }
 
 .footer-3 p {
@@ -258,7 +376,7 @@ nav {
 
 .download-btn {
     margin-top: 20px;
-}
+} */
 
 @media (max-width: 480px) {
 

@@ -82,6 +82,10 @@ nav {
     align-items: center;
 }
 
+.menu-2 {
+    margin-left: 50px;
+}
+
 .menu-2 a {
     text-decoration: none;
     font-size: 12px;
@@ -245,17 +249,17 @@ nav {
     text-align: center;
     background-color: lightgray;
     color: #fff;
-    height: 120px;
-    padding-top: 10px;
+    height: 85px;
+    padding-top: 5px;
 }
 
 .footer-1 h1 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .footer-1 p {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .footer-1 a {
@@ -264,7 +268,7 @@ nav {
     text-decoration: none;
     padding: 5px 10px;
     background-color: lightblue;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .footer-1 a:hover {
@@ -272,7 +276,7 @@ nav {
 }
 
 .switch-anchor {
-    margin-top: 23px;
+    margin-top: 10px;
 }
 
 .footer-2 {
@@ -309,6 +313,7 @@ nav {
     justify-content: center;
     color: #fff;
     background-color: lightgray;
+    height: 90px;
 }
 
 .footer-3 p {
@@ -331,7 +336,7 @@ nav {
 }
 
 .liberty-4 {
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     margin-left: 90px;
 }
 
@@ -339,35 +344,35 @@ nav {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
-    background-color: lightblue;
-    font-size: 16px;
+    font-size: 12px;
 }
 
-.liberty-4 a:hover {
+.liberty-4 .download-btn a {
+    background-color: lightskyblue;
+}
+
+.liberty-4 .download-btn a:hover {
     background-color: darkgray;
 }
-
-.download-btn {
-    margin-top: 5px;
-}
-
-/* .icon {
-    display: flex;
-} */
 
 .icon {
     display: flex;
     justify-content: center;
 }
 
-.icon img {
+/* .download-btn {
+    margin-top: 10px;
+} */
+
+/* .icon {
+    display: flex;
+} */
+
+/* .icon img {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-    /* border-radius: 50%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease; */
-}
+} */
 
 /* 
 .icon img:hover {
