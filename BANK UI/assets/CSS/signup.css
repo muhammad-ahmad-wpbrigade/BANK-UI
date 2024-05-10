@@ -92,6 +92,7 @@ nav {
 
 .header-3 {
     display: flex;
+    background-color: lightgray;
 }
 
 .menu-3 a {
@@ -108,6 +109,9 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
   }
 
   h3 {
@@ -121,9 +125,10 @@ nav {
     color: #555;
   }
 
+  input[type="uname"],
   input[type="email"],
   input[type="password"] {
-    width: 100%;
+    width: 88%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -136,7 +141,7 @@ nav {
   }
 
   .login a {
-    background-color: #4CAF50;
+    background-color: lightgray;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -146,15 +151,15 @@ nav {
   }
 
   .login a:hover {
-    background-color: #45a049;
+    background-color: darkgray;
   }
 
   .footer-1 {
     text-align: center;
     background-color: lightgray;
     color: #fff;
-    height: 150px;
-    padding-top: 50px;
+    height: 120px;
+    padding-top: 10px;
 }
 
 .footer-1 h1 {
@@ -253,4 +258,52 @@ nav {
 
 .download-btn {
     margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+
+    /* .logo {
+        font-size: 12px;
+    }
+
+    .menu a {
+        font-size: 7px;
+    }
+
+    .menu-2 a {
+        font-size: 10px;
+    }
+
+    .menu-3 a {
+        font-size: 10px;
+    }
+
+    .search {
+        margin-right: 310px;
+    }
+
+    .search input[type="text"] {
+        width: 100px;
+    }
+
+    .download-btn {
+        margin-right: 130px;
+    }
+
+    .liberty-4 {
+        margin-right: 100px;
+    }
+
+    .liberty-4 a {
+        font-size: 12px;
+    }
+
+    .footer-2 h2 {
+        font-size: 8px;
+    }
+
+    .footer-2 p {
+        font-size: 8px;
+    } */
+    
 }

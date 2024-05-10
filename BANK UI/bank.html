@@ -14,8 +14,8 @@
         <nav>
             <div class="logo">Allied Bank</div>
             <div class="menu">
-                <a href="#Locations">Locations & ATMs</a>|
-                <a href="#ContactUs">Contact Us</a>|
+                <a href="home.html">Home</a>|
+                <a href="#bill">Bill</a>|
                 <a href="#Account">Open an Account</a>|
                 <a href="#Loan">Apply for a Loan</a>|
                 <a href="#Loanofficer">Find a Loan Officer</a>|
@@ -52,9 +52,10 @@
             </div>
         </nav>
     </header>
-    <!-- Banner & Slider Area Start Here -->
+    <!-- Banner Area Start Here -->
     <div class="hero-main">
-        <pre class="Hero-AllText">
+        <div class="content">
+            <pre class="Hero-AllText">
             <div class="one">
                 <span class="H-TOne">NEW</span> <span class="H-TTwo">SPECIAL</span> <span class="H-TOne">OFFERS</span>
             </div>                  
@@ -65,17 +66,39 @@
             <a href="#">SEE MORE</a>
         </div>
         </pre>
-       <pre class="tabs">
-            <h3>Tabs</h3>
-            <div class="login-btn">
-                <div class="signup">
-                    <a href="signup.html">SIGN UP</a>
-                </div>
+            <div class="tab">
+                <a href="#" id="signupButton">SIGN UP</a>
+                <a href="#" id="loginButton">LOGIN</a>
+            </div>
+            <div id="SignUp" class="tabcontent">
+            </div>
+            <div id="Login" class="tabcontent">
+            </div>
+            <div class="container" id="loginForm" style="display: none;">
+                <h3>Login</h3>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Type Your Email" id="email">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Type Your Password" id="password">
                 <div class="login">
-                    <a href="login.html">LOGIN</a>
+                    <button id="submitButton">Login</button>
                 </div>
             </div>
-        </pre>      
+            <div class="signup" id="signupForm" style="display: none;">
+                <h3>SIGNUP</h3>
+                <label for="uname">Username</label>
+                <input type="uname" placeholder="Please Enter Username" id="uname">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Type Your Email" id="email">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Type Your Password" id="password">
+                <label for="cnfrmpassword">Confirm Password</label>
+                <input type="password" placeholder="Type Your Confirm Password" id="cnfrmpassword">
+                <div class="login">
+                    <button id="signupSubmitButton">SIGN UP</button>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Footer area start here -->
     <div class="footer-1">
@@ -89,7 +112,7 @@
     <div class="footer-2">
         <div class="part-1">
             <h2>GSB Access Banking Center</h2>
-            <p>Phone:207-773-84239</p>
+            <!-- <p>Phone:207-773-84239</p> -->
             <p>SAT: 8:30 am to 1:00 pm</p>
             <p>Email: hello@gmail.com</p>
             <br>
@@ -109,14 +132,14 @@
             <h2>Customer Service</h2>
             <p>Locations</p>
             <p>Product Selector</p>
-            <p>Career Center</p>
+            <!-- <p>Career Center</p>
             <p>Find a loan officer</p>
-            <p>Order Checks</p>
+            <p>Order Checks</p> -->
             <br>
             <h2>Leadership</h2>
             <p>Latest Awards</p>
             <p>Community Partner</p>
-            <p>Board & Leadership Team</p>
+            <!-- <p>Board & Leadership Team</p> -->
         </div>
     </div>
     <div class="footer-3">
@@ -144,6 +167,31 @@
             </div>
         </div>
     </div>
+
+    <script src="js/bank-tabs.js"></script>
+
+    <script>
+        document.getElementById('loginButton').addEventListener('click', function () {
+            document.getElementById('loginForm').style.display = 'block';
+        });
+
+        document.getElementById('submitButton').addEventListener('click', function () {
+            // Your login logic here
+            // For example, you can validate the email and password entered
+        });
+
+        document.getElementById('signupButton').addEventListener('click', function () {
+            document.getElementById('signupForm').style.display = 'block';
+        });
+
+        document.getElementById('signupSubmitButton').addEventListener('click', function () {
+            // Your signup logic here
+            // For example, you can validate the username, email, and passwords entered
+        });
+
+    </script>
+
+
 </body>
 
 </html>

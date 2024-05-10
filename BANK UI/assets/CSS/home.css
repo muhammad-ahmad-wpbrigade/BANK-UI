@@ -103,200 +103,38 @@ nav {
     padding: 10px 10px;
 }
 
-.tab a {
-    text-decoration: none;
-    font-size: 11px;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px 10px;
-    background-color: lightgray;
-}
-
-/* Style the tabs */
-.tab {
-    margin-top: 10px;
-    text-align: center;
-    margin-left: 400px;
-    background-color: darkblue;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 150px;
-    margin: auto;
-    margin-bottom: 180px;
-}
-
-.tab-head {
-    color: #fff;
-    margin-top: 50px;
-    margin-left: 200px;
-}
-
-.tab h4 {
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-.tab a:hover {
-    background-color: darkgray;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
-}
-
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
-}
-
-.login-btn {
-    display: flex;
-}
-
-
-.container {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 300px;
-    margin: auto;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    display: block;
-}
-
-h3 {
-    text-align: center;
-    color: #333;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
-}
-
-input[type="email"],
-input[type="password"] {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-}
-
-.login {
-    text-align: center;
-}
-
-.login a {
-    background-color: lightgray;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-
-.login a:hover {
-    background-color: darkgray;
-}
-
-.signup {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 300px;
-    margin: auto;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    float: right;
-    display: block;
-}
-
-h3 {
-    text-align: center;
-    color: #333;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
-}
-
-input[type="uname"],
-input[type="email"],
-input[type="password"] {
-    width: 88%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-}
-
-.login {
-    text-align: center;
-}
-
-.login a {
-    background-color: lightgray;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-
-.login a:hover {
-    background-color: darkgray;
-}
-
-.hero-main {
+.Main-hero {
     position: relative;
-    position: relative;
-    background-image: url(../Images/bank.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 455px;
+    background-image: url(../Images/bank.jpg);
+    animation: changeBackground 20s infinite;
 }
 
-.hero-main button {
-    background-color: lightgray;
-    color: #fff;
-    font-size: 21px;
-    padding: 10px 10px;
-    border: none;
-}
+@keyframes changeBackground {
 
-.content {
-    display: flex;
+    0%,
+    20% {
+        background-image: url(../Images/Rectangle\ 4\ copia\ 4.png);
+    }
+
+    25%,
+    45% {
+        background-image: url(../Images/bank.jpg);
+    }
+
+    50%,
+    70% {
+        background-image: url(../Images/bgbank.jpg);
+    }
+
+    75%,
+    95% {
+        background-image: url(../Images/bank-logo-2.jpg);
+    }
 }
 
 .Hero-AllText {
@@ -309,6 +147,7 @@ input[type="password"] {
     font-weight: bold;
     width: 400px;
     clip-path: polygon(0 0, 90% 0%, 100% 100%, 0% 100%);
+    margin-left: 20px;
 }
 
 .two {
@@ -316,6 +155,7 @@ input[type="password"] {
     color: lightgray;
     width: 600px;
     clip-path: polygon(0 0, 90% 0%, 100% 100%, 0% 100%);
+    margin-left: 20px;
 }
 
 .see-more a {
@@ -329,6 +169,76 @@ input[type="password"] {
 
 .see-more a:hover {
     background-color: darkgray;
+}
+
+.Main-hero .owl-nav {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.Main-hero .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    Width: 70px;
+    min-height: 68px;
+}
+
+.Main-hero .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    Width: 70px;
+    min-height: 68px;
+}
+
+.Main-hero .owl-dots {
+    display: block;
+}
+
+.grid {
+    background-color: darkgray;
+    color: #fff;
+}
+
+/* Grid Section Start Here */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three equal columns */
+    gap: 20px;
+    /* Gap between grid items */
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 70px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grid-content {
+    padding-left: 50px;
+}
+
+.grid-content h3 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.grid-content h5 {
+    font-size: 16px;
+}
+
+.grid-content p {
+    font-size: 12px;
+}
+
+.grid-item {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    height: 70px;
+    width: 100px;
 }
 
 .footer-1 {
@@ -368,6 +278,7 @@ input[type="password"] {
 .footer-2 {
     display: flex;
     justify-content: center;
+    background-color: darkgray;
 }
 
 .footer-2 p {
@@ -437,12 +348,48 @@ input[type="password"] {
 }
 
 .download-btn {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
-@media (max-width: 480px) {
+/* .icon {
+    display: flex;
+} */
 
-    /* .logo {
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    /* border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; */
+}
+
+/* 
+.icon img:hover {
+    transform: scale(1.1); 
+} */
+
+/* .icon:hover img {
+    transform: scale(1.1);
+} */
+
+/* @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+@media (max-width: 1100px) {
+
+    .logo {
         font-size: 12px;
     }
 
@@ -484,6 +431,29 @@ input[type="password"] {
 
     .footer-2 p {
         font-size: 8px;
-    } */
+    }
+
+}
+
+/* Mobile Responsive Media Query*/
+
+@media (max-width: 480px) {
+    .menu-2 a {
+        font-size: 8px;
+    }
+
+    .menu-3 a {
+        font-size: 8px;
+    }
+
+    .search {
+        margin-right: 0px;
+    }
+
+
+
+
+
+
 
 }
