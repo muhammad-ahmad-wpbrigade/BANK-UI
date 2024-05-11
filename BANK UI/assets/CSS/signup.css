@@ -378,6 +378,49 @@ nav {
     margin-top: 20px;
 } */
 
+/* Tablet Responsive Media Query*/
+@media (max-width: 1024px) {
+    .logo {
+        margin-left: 9px;
+    }
+
+    .search {
+        margin-right: 70px;
+    }
+
+    .search input[type="text"] {
+        width: 112px;
+    }
+
+    .menu {
+        margin-right: 50px;
+    }
+
+    .liberty-4 a {
+        font-size: 11px;
+    }
+
+    .menu-2 {
+        margin-right: 80px;
+    }
+
+    .menu-3 {
+        margin-right: 30px;
+    }
+
+    .footer-1 {
+        margin-right: 0px;
+    }
+
+    .footer-2 {
+        margin-right: 0px;
+    }
+    
+    .footer-3 {
+        padding-right: 310px;
+    }
+}
+
 @media (max-width: 480px) {
 
     /* .logo {

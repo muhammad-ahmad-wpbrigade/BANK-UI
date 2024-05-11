@@ -27,6 +27,10 @@ nav {
     font-weight: bold;
 }
 
+/* .menu {
+    padding-right: 300px;
+} */
+
 .menu a {
     text-decoration: none;
     font-size: 12px;
@@ -209,7 +213,7 @@ nav {
 /* Grid Section Start Here */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* Three equal columns */
     gap: 20px;
     /* Gap between grid items */
@@ -218,6 +222,152 @@ nav {
     margin-right: 70px;
     font-weight: bold;
     font-size: 15px;
+}
+
+.tickets {
+    position: relative;
+}
+
+.tickets img {
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 10px;
+    width: 20px;
+    height: 30px;
+}
+
+.flight {
+    position: relative;
+}
+
+.flight img {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 60px;
+    width: 20px;
+    height: 30px;
+}
+
+.tv {
+    position: relative;
+}
+
+.tv img {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 60px;
+    width: 20px;
+    height: 30px;
+}
+
+.google-play {
+    position: relative;
+}
+
+.google-play img {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 60px;
+    width: 20px;
+    height: 30px;
+}
+
+.transaction {
+    position: relative;
+}
+
+.transaction img {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 60px;
+    width: 20px;
+    height: 30px;
+}
+
+.food {
+    position: relative;
+}
+
+.food img {
+    padding-top: 10px;
+    position: absolute;
+    padding-left: 60px;
+    height: 30px;
+    width: 20px;
+}
+
+.electricity {
+    position: relative;
+}
+
+.electricity img {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 60px;
+    height: 30px;
+    width: 20px;
+}
+
+
+.fuel {
+    position: relative;
+}
+
+.fuel img {
+    position: absolute;
+    padding-left: 60px;
+    width: 20px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+.hotel {
+    position: relative;
+}
+
+.hotel img {
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 10px;
+    height: 30px;
+    width: 20px;
+}
+
+
+.e-commerce {
+    position: relative;
+}
+
+.e-commerce img {
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 10px;
+    height: 30px;
+    width: 20px;
+}
+
+.mobiledata {
+    position: relative;
+}
+
+.mobiledata img {
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 10px;
+    width: 20px;
+    height: 30px;
+}
+
+.pharmacy {
+    position: relative;
+}
+
+.pharmacy img {
+    position: absolute;
+    padding-left: 60px;
+    width: 20px;
+    height: 30px;
+    padding-top: 10px;
 }
 
 .grid-content {
@@ -243,6 +393,11 @@ nav {
     text-align: center;
     height: 70px;
     width: 100px;
+    border-radius: 5px;
+}
+
+.grid-item h4 {
+    padding-top: 30px;
 }
 
 .footer-1 {
@@ -392,22 +547,31 @@ nav {
     }
 } */
 
-@media (max-width: 1100px) {
+/* Tablet Responsive Media Query*/
+@media (max-width: 1024px) {
 
     .logo {
         font-size: 12px;
     }
 
     .menu a {
-        font-size: 7px;
+        font-size: 9px;
+    }
+
+    .menu-2 {
+        margin-right: 330px;
     }
 
     .menu-2 a {
-        font-size: 10px;
+        font-size: 9px;
+    }
+
+    .menu-3 {
+        margin-right: 300px;
     }
 
     .menu-3 a {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .search {
@@ -419,15 +583,23 @@ nav {
     }
 
     .download-btn {
-        margin-right: 130px;
+        margin-right: 0px;
+    }
+    
+    .grid-container {
+        margin-right: 300px;
+    }
+
+    .liberty-1 {
+        margin-left: 430px;
     }
 
     .liberty-4 {
-        margin-right: 100px;
+        margin-right: 680px;
     }
 
     .liberty-4 a {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .footer-2 h2 {
@@ -455,6 +627,11 @@ nav {
         margin-right: 0px;
     }
 
+    .footer-3 {
+        padding-left: 460px;
+    }
+
+    
 
 
 

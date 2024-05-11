@@ -181,12 +181,12 @@ nav {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 300px;
+    padding: 5px;
+    /* width: 300px; */
     margin: auto;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
     margin-top: 20px;
-    display: block;
+    display: block; */
 }
 
 h3 {
@@ -232,13 +232,14 @@ input[type="password"] {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 300px;
+    padding: 5px;
+    /* width: 300px; */
     margin: auto;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
     margin-top: 20px;
-    float: right;
+    float: right; */
     display: block;
+    margin-top: 10px;
 }
 
 h3 {
@@ -295,7 +296,7 @@ input[type="password"] {
 .hero-main button {
     background-color: lightgray;
     color: #fff;
-    font-size: 21px;
+    font-size: 12px;
     padding: 10px 10px;
     border: none;
 }
@@ -482,6 +483,71 @@ input[type="password"] {
         transform: rotate(360deg);
     }
 } */
+
+/* Tablet Responsive Media Query*/
+@media (max-width: 1024px) {
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .menu a {
+        font-size: 9px;
+    }
+
+    .menu-2 {
+        margin-right: 330px;
+    }
+
+    .menu-2 a {
+        font-size: 9px;
+    }
+
+    .menu-3 {
+        margin-right: 300px;
+    }
+
+    .menu-3 a {
+        font-size: 9px;
+    }
+
+    .search {
+        margin-right: 310px;
+    }
+
+    .search input[type="text"] {
+        width: 100px;
+    }
+
+    .download-btn {
+        margin-right: 0px;
+    }
+    
+    .grid-container {
+        margin-right: 300px;
+    }
+
+    .liberty-1 {
+        margin-left: 430px;
+    }
+
+    .liberty-4 {
+        margin-right: 680px;
+    }
+
+    .liberty-4 a {
+        font-size: 11px;
+    }
+
+    .footer-2 h2 {
+        font-size: 8px;
+    }
+
+    .footer-2 p {
+        font-size: 8px;
+    }
+
+}
 
 @media (max-width: 480px) {
 
