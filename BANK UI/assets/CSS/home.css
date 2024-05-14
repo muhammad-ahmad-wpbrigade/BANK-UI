@@ -5,7 +5,6 @@
 }
 
 header {
-    /* width: 100%; */
     height: 70px;
 }
 
@@ -90,10 +89,6 @@ nav {
     align-items: center;
 }
 
-/* .menu-2 {
-    margin-left: 50px;
-} */
-
 .menu-2 a {
     text-decoration: none;
     font-size: 12px;
@@ -102,26 +97,20 @@ nav {
     padding: 10px 10px;
 }
 
-/* .header-3 {
-    display: flex;
-    background-color: lightgray;
-} */
-
-.header-3 {
-    text-align: center;
-    padding: 20px;
-    background-color: lightgray;
-    color: #000;
-}
-
 h6 {
     font-size: 16px;
-    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
 }
 
-#tagline {
+.header-3 {
+    background-color: lightgray;
+}
+
+.header-3 p {
+    text-align: center;
     font-size: 12px;
-    margin: 0;
+    padding-top: 5px;
 }
 
 .menu-3 a {
@@ -431,41 +420,6 @@ h6 {
     padding-top: 30px;
 }
 
-/* .toggles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: lightskyblue;
-}
-
-.toggles a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #000;
-    transition: background-color 0.3s;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
-/* .toggles a:hover {
-    background-color: darkgray;
-} */
-
-/* .content.hidden {
-    display: none;
-}
-
-.toggle {
-    cursor: pointer;
-    margin-bottom: 10px;
-    color: #000;
-}
-
-.toggle:hover {
-    text-decoration: none;
-} */
-
 .content.hidden {
     display: none;
 }
@@ -487,6 +441,54 @@ h6 {
 .toggle:hover {
     text-decoration: none;
     color: lightgray;
+}
+
+/* Styles for the accordion */
+.accordion {
+    max-width: 1280px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    background-color: #f4f4f4;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px 15px;
+}
+
+
+#icon-1 {
+    float: right;
+}
+
+#icon-2 {
+    float: right;
+}
+
+#icon-3 {
+    float: right;
+}
+
+#icon-4 {
+    float: right;
+}
+
+#icon-5 {
+    float: right;
+}
+
+#icon-6 {
+    float: right;
+}
+
+.hidden {
+    display: none;
 }
 
 .footer-1 {
@@ -581,7 +583,6 @@ h6 {
 }
 
 .liberty-4 {
-    /* padding: 10px 10px; */
     margin-left: 90px;
 }
 
@@ -610,38 +611,6 @@ h6 {
     display: flex;
     justify-content: center;
 }
-
-/* .download-btn {
-    margin-top: 10px;
-} */
-
-/* .icon {
-    display: flex;
-} */
-
-/* .icon img {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-} */
-
-/* 
-.icon img:hover {
-    transform: scale(1.1); 
-} */
-
-/* .icon:hover img {
-    transform: scale(1.1);
-} */
-
-/* @keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-} */
 
 /* Tablet Responsive Media Query*/
 @media (max-width: 1024px) {

@@ -206,11 +206,27 @@ nav {
     background-color: lightgray;
 } */
 
-.header-3 {
+/* .header-3 {
     text-align: center;
     padding: 20px;
     background-color: lightgray;
     color: #000;
+} */
+
+h6 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header-3 {
+    background-color: lightgray;
+}
+
+.header-3 p {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
 }
 
 h4 {

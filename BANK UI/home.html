@@ -51,8 +51,8 @@
             </div>
         </nav> -->
     </header>
-    <header class="header-3">
-        <!-- <nav>
+    <!-- <header class="header-3"> -->
+    <!-- <nav>
             <div class="menu-3">
                 <a href="#bank">Bank</a>|
                 <a href="#borrow">Borrow</a>|
@@ -61,6 +61,11 @@
                 <a href="#productselectortool">Product Selector Tool</a>
             </div>
         </nav> -->
+    <!-- <h6>Welcome to Our Bank</h6>
+        <p id="tagline">Serving You with Trust and Excellence</p>
+    </header> -->
+
+    <header class="header-3">
         <h6>Welcome to Our Bank</h6>
         <p id="tagline">Serving You with Trust and Excellence</p>
     </header>
@@ -265,28 +270,55 @@
     <!-- Toggle Area Start Here -->
     <div class="toggles">
         <span class="toggle" onclick="toggleContent(1)">Services</span>
-        <div id="content-1" class="content hidden">Services</div>
-      
-        <span class="toggle" onclick="toggleContent(2)">Account</span>
-        <div id="content-2" class="content hidden">Account</div>
-      
-        <span class="toggle" onclick="toggleContent(3)">Loan</span>
-        <div id="content-3" class="content hidden">Loan</div>
-      
-        <span class="toggle" onclick="toggleContent(4)">Investment</span>
-        <div id="content-4" class="content hidden">Investment</div>
-      
-        <span class="toggle" onclick="toggleContent(5)">Security</span>
-        <div id="content-5" class="content hidden">Security</div>
-      </div>
-    <!-- <div class="toggles">
-        <a href="services.html">Our Services</a>
-        <a href="account.html">Open an Account</a>
-        <a href="loan.html">Loan</a>
-        <a href="investment.html">Investment</a>
-        <a href="security.html">Security</a>
-    </div> -->
+        <div id="content-4" class="content hidden">Services</div>
 
+        <span class="toggle" onclick="toggleContent(2)">Account</span>
+        <div id="content-5" class="content hidden">Account</div>
+
+        <span class="toggle" onclick="toggleContent(3)">Loan</span>
+        <div id="content-6" class="content hidden">Loan</div>
+
+        <span class="toggle" onclick="toggleContent(4)">Investment</span>
+        <div id="content-7" class="content hidden">Investment</div>
+
+        <span class="toggle" onclick="toggleContent(5)">Security</span>
+        <div id="content-8" class="content hidden">Security</div>
+    </div>
+
+    <!-- FAQ Accordion Section Start Here -->
+    <div class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(1)">
+                <b>What is an Overdraft?<span id="icon-1">+</span></b>
+            </div>
+            <div class="accordion-content hidden" id="content-1">
+                An overdraft occurs when you do not have enough money in your account to cover a transaction, but we pay
+                it anyway.
+                <b><span id="icon-4">-</span></b>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(2)">
+                <b>Is the mobile banking app free?<span id="icon-2">+</span></b>
+            </div>
+            <div class="accordion-content hidden" id="content-2">
+                Yes, our Mobile Banking app is free! Our standard banking fees apply, and message and data rates from
+                your mobile carrier may apply.
+                <b><span id="icon-5">-</span></b>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(3)">
+                <b>Where do I find my bank statements?<span id="icon-3">+</span></b>
+            </div>
+            <div class="accordion-content hidden" id="content-3">
+                In online banking, select the account and click on the DOCUMENTS box. A new window will open > Document
+                Type should be eStatements > Submit. Note: You do not need to be enrolled in eStatements to access bank
+                statements online.
+                <b><span id="icon-6">-</span></b>
+            </div>
+        </div>
+    </div>
     <!-- Footer area start here -->
     <div class="footer-1">
         <h1>Make the switch to GSB</h1>
@@ -386,6 +418,7 @@
         })
     </script>
     <script src="js/toggle.js"></script>
+    <script src="js/accordion.js"></script>
 </body>
 
 </html>
