@@ -4,9 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 header {
-    width: 100%;
     height: 70px;
 }
 
@@ -26,6 +24,11 @@ nav {
 .logo {
     font-size: 20px;
     font-weight: bold;
+}
+
+
+.menu {
+    padding-right: 170px;
 }
 
 .menu a {
@@ -75,6 +78,10 @@ nav {
     background-color: darkgray;
 }
 
+.header-2 p {
+    padding-top: 25px;
+}
+
 nav {
     width: 100%;
     height: 70px;
@@ -95,9 +102,26 @@ nav {
     padding: 10px 10px;
 }
 
-.header-3 {
+/* .header-3 {
     display: flex;
     background-color: lightgray;
+} */
+
+.header-3 {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    color: #000;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#tagline {
+    font-size: 12px;
+    margin: 0;
 }
 
 .menu-3 a {
@@ -439,6 +463,10 @@ input[type="password"] {
     font-size: 12px;
 }
 
+.download-btn {
+    margin-left: 50px;
+}
+
 .liberty-4 .download-btn a {
     background-color: lightskyblue;
 }
@@ -488,63 +516,43 @@ input[type="password"] {
 @media (max-width: 1024px) {
 
     .logo {
-        font-size: 12px;
-    }
-
-    .menu a {
-        font-size: 9px;
-    }
-
-    .menu-2 {
-        margin-right: 330px;
-    }
-
-    .menu-2 a {
-        font-size: 9px;
-    }
-
-    .menu-3 {
-        margin-right: 300px;
-    }
-
-    .menu-3 a {
-        font-size: 9px;
+        margin-left: 9px;
     }
 
     .search {
-        margin-right: 310px;
+        margin-right: 70px;
     }
 
     .search input[type="text"] {
-        width: 100px;
+        width: 112px;
     }
 
-    .download-btn {
-        margin-right: 0px;
-    }
-    
-    .grid-container {
-        margin-right: 300px;
-    }
-
-    .liberty-1 {
-        margin-left: 430px;
-    }
-
-    .liberty-4 {
-        margin-right: 680px;
+    .menu {
+        margin-right: 50px;
     }
 
     .liberty-4 a {
         font-size: 11px;
     }
 
-    .footer-2 h2 {
-        font-size: 8px;
+    .menu-2 {
+        margin-right: 80px;
     }
 
-    .footer-2 p {
-        font-size: 8px;
+    .menu-3 {
+        margin-right: 30px;
+    }
+
+    .footer-1 {
+        margin-right: 0px;
+    }
+
+    .footer-2 {
+        margin-right: 0px;
+    }
+    
+    .footer-3 {
+        padding-right: 310px;
     }
 
 }

@@ -36,19 +36,23 @@
         </div>
     </header>
     <header class="header-2">
-        <nav>
+        <marquee scrollamount="5" direction="left" height="" behavior="scroll" loop="5" onmouseover="stop()"
+            onmouseout="start()">
+            <p>Welcome to our Allied Bank Site</p>
+        </marquee>
+        <!-- <nav>
             <div class="menu-2">
                 <a href="#Personal">Personal</a>|
                 <a href="#Business">Business</a>|
                 <a href="#Gery">Gery Ledge Advisors</a>|
                 <a href="#GivingBock">Giving Bock</a>|
                 <a href="#AboutUs">About Us</a>|
-                <a href="#MyFavourite">My Favourite</a>
+                <a href="#MyFavourite">My Favourite</a>              
             </div>
-        </nav>
+        </nav> -->
     </header>
     <header class="header-3">
-        <nav>
+        <!-- <nav>
             <div class="menu-3">
                 <a href="#bank">Bank</a>|
                 <a href="#borrow">Borrow</a>|
@@ -56,7 +60,9 @@
                 <a href="#currentrates">Current Rates</a>|
                 <a href="#productselectortool">Product Selector Tool</a>
             </div>
-        </nav>
+        </nav> -->
+        <h6>Welcome to Our Bank</h6>
+        <p id="tagline">Serving You with Trust and Excellence</p>
     </header>
 
     <!-- Slider Section Start Here -->
@@ -175,71 +181,111 @@
     <div class="grid">
         <div class="grid-content">
             <h3>Manage Your Payments</h3>
-            <h5>Your Bills</h5>
-            <p>Pay your bill & signup your account</p>
         </div>
         <div class="grid-container">
             <div class="tickets">
                 <img src="assets/Images/tickets.png" alt="Tickets">
-                <div class="grid-item"><h4>Tickets</h4></div>
+                <div class="grid-item">
+                    <h4><a href="#">Tickets</a></h4>
+                </div>
             </div>
             <div class="flight">
                 <img src="assets/Images/flight.png" alt="Tickets">
-                <div class="grid-item"><h4>Flight</h4></div>
+                <div class="grid-item">
+                    <h4><a href="#">Flight</a></h4>
+                </div>
             </div>
             <div class="tv">
                 <img src="assets/Images/tv.png" alt="Tickets">
-                <div class="grid-item"><h4>TV & Internet</h4></div>
-                <!-- <div class="grid-item">TV & Internet</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">TV & Internet</a></h4>
+                </div>
+
             </div>
             <div class="google-play">
                 <img src="assets/Images/google-play.png" alt="Tickets">
-                <div class="grid-item"><h4>Google Play</h4></div>
-                <!-- <div class="grid-item">Google Play</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Google Play</a></h4>
+                </div>
             </div>
             <div class="transaction">
                 <img src="assets/Images/transaction.png" alt="Tickets">
-                <div class="grid-item"><h4>Transactions</h4></div>
-                <!-- <div class="grid-item">Transactions</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Transactions</a></h4>
+                </div>
             </div>
             <div class="food">
                 <img src="assets/Images/food.png" alt="Tickets">
-                <div class="grid-item"><h4>Food & Drink</h4></div>
-                <!-- <div class="grid-item">Food & Drink</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Food & Drinks</a></h4>
+                </div>
             </div>
             <div class="electricity">
                 <img src="assets/Images/electricity.png" alt="Tickets">
-                <div class="grid-item"><h4>Electricity</h4></div>
-                <!-- <div class="grid-item">Electricity</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Electricity</a></h4>
+                </div>
             </div>
             <div class="fuel">
                 <img src="assets/Images/fuel.png" alt="Tickets">
-                <div class="grid-item"><h4>Fuel</h4></div>
-                <!-- <div class="grid-item">Fuel</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Fuel</a></h4>
+                </div>
             </div>
             <div class="e-commerce">
                 <img src="assets/Images/e-commerce.png" alt="Tickets">
-                <div class="grid-item"><h4>E-Commerce</h4></div>
-                <!-- <div class="grid-item">E-Commerce</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">E-Commerce</a></h4>
+                </div>
             </div>
             <div class="hotel">
                 <img src="assets/Images/hotel.png" alt="Tickets">
-                <div class="grid-item"><h4>Hotel</h4></div>
-                <!-- <div class="grid-item">Hotel</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Hotel</a></h4>
+                </div>
             </div>
             <div class="mobiledata">
                 <img src="assets/Images/mobiledata.png" alt="Tickets">
-                <div class="grid-item"><h4>Mobile & Data</h4></div>
-                <!-- <div class="grid-item">Mobile & Data</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Mobile & Data</a></h4>
+                </div>
+
+
             </div>
             <div class="pharmacy">
                 <img src="assets/Images/pharmacy.png" alt="Tickets">
-                <div class="grid-item"><h4>Pharmacy</h4></div>
-                <!-- <div class="grid-item">Pharmacy</div> -->
+                <div class="grid-item">
+                    <h4><a href="#">Pharmacy</a></h4>
+                </div>
+
             </div>
         </div>
     </div>
 
+    <!-- Toggle Area Start Here -->
+    <div class="toggles">
+        <span class="toggle" onclick="toggleContent(1)">Services</span>
+        <div id="content-1" class="content hidden">Services</div>
+      
+        <span class="toggle" onclick="toggleContent(2)">Account</span>
+        <div id="content-2" class="content hidden">Account</div>
+      
+        <span class="toggle" onclick="toggleContent(3)">Loan</span>
+        <div id="content-3" class="content hidden">Loan</div>
+      
+        <span class="toggle" onclick="toggleContent(4)">Investment</span>
+        <div id="content-4" class="content hidden">Investment</div>
+      
+        <span class="toggle" onclick="toggleContent(5)">Security</span>
+        <div id="content-5" class="content hidden">Security</div>
+      </div>
+    <!-- <div class="toggles">
+        <a href="services.html">Our Services</a>
+        <a href="account.html">Open an Account</a>
+        <a href="loan.html">Loan</a>
+        <a href="investment.html">Investment</a>
+        <a href="security.html">Security</a>
+    </div> -->
 
     <!-- Footer area start here -->
     <div class="footer-1">
@@ -301,7 +347,8 @@
         </div>
         <div class="liberty-4">
             <div class="icon">
-                <a href="https://www.twitter.com/"><img src="assets/Images/twitter.png" alt="Twitter" style="width: 60px; padding-top: 7px;"></a>       
+                <a href="https://www.twitter.com/"><img src="assets/Images/twitter.png" alt="Twitter"
+                        style="width: 60px; padding-top: 7px;"></a>
                 <a href="https://www.youtube.com/"><img src="assets/Images/youtube.png" alt="Youtube"></a>
                 <a href="https://www.instagram.com/"><img src="assets/Images/insta.png" alt="Instagram"></a>
             </div>
@@ -338,6 +385,7 @@
             }
         })
     </script>
+    <script src="js/toggle.js"></script>
 </body>
 
 </html>
