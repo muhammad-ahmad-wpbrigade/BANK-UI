@@ -421,12 +421,11 @@ h6 {
 }
 
 .navbar {
-    background-color: lightgray;
-    color: white;
+    color: #000;
     display: flex;
-    align-items: center;
     min-height: 50px;
     padding-top: 10px;
+    padding-left: 250px;
     flex-direction: column;
 }
 
@@ -435,29 +434,46 @@ h6 {
     padding: 10px;
 }
 
-#services {
-    text-align: center;
+.toggle-section {
+    display: flex;
+    background-color: lightgray;
 }
 
-#accounts {
-    text-align: center;
+#loans img {
+    width: 700px;
+    height: 200px;
+    padding-left: 50px; 
 }
 
-#loans {
-    text-align: center;
+#services img {
+    width: 700px;
+    height: 200px;
+    padding-left: 50px; 
 }
 
-#investments {
-    text-align: center;
+#investments img {
+    width: 700px;
+    height: 200px;
+    padding-left: 50px; 
 }
 
-#security {
-    text-align: center;
+#accounts img {
+    width: 700px;
+    height: 200px;
+    padding-left: 50px; 
 }
 
-/* .navbar .toggle:hover {
-    background-color: darkgray;
-} */
+#security img {
+    width: 700px;
+    height: 200px;
+    padding-left: 50px; 
+}
+
+h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
 
 .content {
     padding: 20px;
@@ -518,7 +534,7 @@ h6 {
 .footer-1 {
     text-align: center;
     background-color: lightgray;
-    color: #fff;
+    color: #000;
     height: 85px;
     padding-top: 5px;
 }

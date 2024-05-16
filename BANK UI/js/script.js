@@ -1,6 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Hide the splash screen after some time (e.g., 9 seconds)
-    setTimeout(function() {
-        document.querySelector(".splash-screen").style.display = "none";
-    }, 9000); // Adjust the time as needed
+// Wait for the DOM content to be loaded
+document.addEventListener('DOMContentLoaded', function () {
+    // Set a timeout to simulate loading time
+    setTimeout(function () {
+        // Redirect to home page
+        window.location.href = 'home.html';
+    }, 6000); // 6000 milliseconds = 6 seconds 
 });

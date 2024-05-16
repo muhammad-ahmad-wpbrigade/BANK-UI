@@ -1,14 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     const toggles = document.querySelectorAll('.toggle');
-//     toggles.forEach(toggle => {
-//         toggle.addEventListener('click', function() {
-//             const targetId = this.getAttribute('data-target');
-//             const content = document.getElementById(targetId);
-//             content.classList.toggle('hidden');
-//         });
-//     });
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
     const toggles = document.querySelectorAll('.toggle');
     toggles.forEach(toggle => {
@@ -28,3 +17,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
